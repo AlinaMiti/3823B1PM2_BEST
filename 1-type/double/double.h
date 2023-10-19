@@ -31,4 +31,4 @@ double get_fractional(double x) {
         }
     }
 
-}GIT RESET he
+}
