@@ -1,6 +1,6 @@
 bool compare_double(double x, double y) {
     if ((fabs(x - y)) < 0.00000001)
-        return true; // Not implementation
+        return true;
     else{
         return false;
     }
