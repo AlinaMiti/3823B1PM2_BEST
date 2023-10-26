@@ -1,6 +1,5 @@
 #include <math.h>
 
-<<<<<<< HEAD
 char count_max_digit(long long int num){
     int maxi = 0;
     int a = 0;
@@ -26,8 +25,4 @@ char count_max_digit(long long int num){
         s /= 10;
     }
     return a;
-=======
-char count_max_digit(long long int x){
-    return 100;
->>>>>>> 3c8e12c92e24078e293573bd43781dbccc3105fd
 }
