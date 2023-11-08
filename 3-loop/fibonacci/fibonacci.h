@@ -9,8 +9,7 @@ long fib(int m){
     }
     }
     else{
-        sum = -1;
-        return sum;
+        return -1;
     } 
     
     return sum;
