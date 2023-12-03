@@ -1,12 +1,14 @@
 #include <math.h>
 
 void find_loops(int* pic, int size, int* num_loop, int* start_row, int* start_col, int* finish_row, int* finish_col){
-/*
-    for (int i = 0; i < size; i++){
-        for (int j = 0; j < size; j++){
-            if (pic[j][i] == 1){
-                *start_row = j;   
-                *start_col = i;   
+    
+    /*
+    int razm = sqrt(size);
+    int stolbik = 0;
+    for (int i = 0; i < size; i+=razm){{
+            if (pic[i] == 1){
+                *start_row = i/razm;   
+                *start_col = 0;   
         }        
     }
     }
@@ -23,8 +25,9 @@ void find_loops(int* pic, int size, int* num_loop, int* start_row, int* start_co
 
                 }
             
-            }
+            }*/
+             return;
         }
-        */
-    return;
-}
+        
+   
+
