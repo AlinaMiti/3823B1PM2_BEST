@@ -2,17 +2,16 @@
 
 
 int calcsize(void* memory){
-    /*int size = 0;
-    unsigned char* arr = (unsigned char*)memory;
+    int size = 0;
+    char* arr = (char*)memory;
     
-    while(arr[size] != 11 || arr[size+1] != 47){
-        size += 1;
+    
+    for(int i = 0; i< 40; i++){
+        printf("%d\n", arr[i]);
     }
-
     return size+2;
-*/
-return 0;
 }
+
 
 
 
